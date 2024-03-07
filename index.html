@@ -3,31 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Primera Página Web</title>
+    <title>Mi Página con Bootstrap</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 
-    <header>
-        <h1>Bienvenido a mi página web</h1>
+    <header class="bg-dark text-white p-4">
+        <h1 class="text-center">Encabezado</h1>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="#">Contacto</a></li>
-        </ul>
-    </nav>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagen de la Card">
+                    <div class="card-body">
+                        <h5 class="card-title">Card 1</h5>
+                        <p class="card-text">Este es el contenido de la Card 1.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagen de la Card">
+                    <div class="card-body">
+                        <h5 class="card-title">Card 2</h5>
+                        <p class="card-text">Este es el contenido de la Card 2.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagen de la Card">
+                    <div class="card-body">
+                        <h5 class="card-title">Card 3</h5>
+                        <p class="card-text">Este es el contenido de la Card 3.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagen de la Card">
+                    <div class="card-body">
+                        <h5 class="card-title">Card 4</h5>
+                        <p class="card-text">Este es el contenido de la Card 4.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <main>
-        <h2>Contenido Principal</h2>
-        <p>Esta es una página web básica creada con HTML.</p>
-        <p>Puedes agregar todo el contenido que desees aquí.</p>
-    </main>
-
-    <footer>
-        <p>Derechos de autor © 2024. Todos los derechos reservados.</p>
+    <footer class="bg-dark text-white p-4 mt-5">
+        <p class="text-center">Pie de página - Derechos de autor © 2024. Todos los derechos reservados.</p>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
